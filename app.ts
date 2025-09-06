@@ -35,3 +35,22 @@ function join (obj : obj1) : void {
 }
 
 join({name:"saurabh" ,age:14 ,address:"hayatganj"});
+
+class A {
+    private name ;
+    public age ;
+    
+    constructor( name:string ,age:number){
+        this.age=age
+        this.name=name
+    }
+
+    change(){
+        this.name="sk";
+    }
+}
+
+let boy = new A ("s",12);
+boy.change();
+
+console.log(boy);
