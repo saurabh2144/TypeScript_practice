@@ -3,3 +3,5 @@ function abcd( nam:string):string{
 }
 
 abcd("s");
+
+console.log("this is update one");

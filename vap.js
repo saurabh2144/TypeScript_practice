@@ -4,4 +4,5 @@ function abcd(nam) {
     return nam;
 }
 abcd("s");
+console.log("this is update one");
 //# sourceMappingURL=vap.js.map
